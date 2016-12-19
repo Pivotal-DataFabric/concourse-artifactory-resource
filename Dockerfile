@@ -1,5 +1,4 @@
-FROM golang:1.6-alpine
-MAINTAINER Nathan Craddock <nkcraddock@gmail.com>
+FROM golang:1.7-alpine
 
 RUN set -ex \
 	&& apk update \
